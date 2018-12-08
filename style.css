@@ -1,0 +1,151 @@
+
+
+/*1. Default css*/
+/*2. navbar css*/
+/*4.  about us css*/
+/*5.  services css*/
+/*6.  ou delicious food css*/
+/*7.  reserved table css*/
+/*8.  our blog css*/
+/*9.  our counter css*/
+/*10. our team css*/
+/*10. our  testimonial css*/
+/*11. our footer css*/
+
+
+
+/*---------- 1. Default css starts ------------*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333333;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333333;
+    font-weight: 600;
+}
+
+p {
+    letter-spacing: 0;
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+/*=======================navbar css=============*/
+
+.navbar{
+	background: #fff;
+	padding: 15px 0;
+}
+
+.backimage{
+	background-image: url("images/5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color:rgb(0,0,0,.6);
+  	background-blend-mode:overlay;
+    min-height:650px;
+}
+
+
+
+/*========================about us section============================*/
+
+.about{
+	
+	padding: 100px 0;
+}
+
+.about img{
+	height: 100%;
+	width: 100%;
+	box-shadow: 10px 10px #DC143C;
+}
+
+.about .heading{
+	padding: 5px 10px;
+}
+.about p{
+	color:  #c2c2a3;
+	padding: 10px 10px;
+}
+
+/*========================services section============================*/
+
+.services{
+	background:  #f2f2f2;
+	padding: 40px 0;
+    min-height: 900px;
+}
+
+
+.services h1{
+	padding: 10px 10px;
+}
+.image-title{
+    padding-top: 10px;
+}
+
+.services p{
+	color:  #b8b894;
+	padding: 0 10px;
+}
+
+.services img{
+	height: 100%;
+	width: 100%;
+}
+
+/*=========================reserved table section==============================*/
+
+.reserved{
+	background-image: url("images/5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:rgb(0,0,0,.6);
+  	background-blend-mode:overlay;
+    min-height:400px;
+}
+
+.textone{
+	padding: 80px 0;
+}
+
+.textone .headerone{
+	color: #fff;
+
+}
+
+.textone .paraone{
+	color:#fff;
+	padding: 5px 5px; 
+}
